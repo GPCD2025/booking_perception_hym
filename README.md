@@ -5,7 +5,7 @@
 
 # Proyecto - Booking Perception
 ## Descripción General
-Este proyecto tiene como objetivo identificar las experiencias y servicios que más valoran los clientes a la hora de realizar un viaje.
+Este proyecto tiene como objetivo, procesar y analizar una fuente de datos extraida de Booking.com, la cual contiene una descripción general de la valoración de los servicios turísticos prestados a grupos familiares, con el fin de identificar y visualizar patrones que puedan determinar sobre que servicios se deben realizara acciones de mejora en los servicios prestados.
 
 Estado de avance
 ------------------
@@ -15,5 +15,3 @@ Estado de avance
 4. Selección y descripción de los roles en la carpeta **/roles**
 5. Registro del proceso de exploración de los datos en la carpeta **/notebooks**
 6. Registro del plan del proyecto en la carpeta **/project_management**
-
-

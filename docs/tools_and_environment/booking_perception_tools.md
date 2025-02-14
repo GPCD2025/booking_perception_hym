@@ -1,5 +1,6 @@
-<image src="docs/images/encabezado.png" alt="Descripción de la imagen" width="800" height="83">
-
+<div style="text-align: center;">
+<image src="../images/encabezado.png" alt="Descripción de la imagen" width="800" height="83">
+</div>
 #
 # 📖 Proyecto - Booking Perception
 

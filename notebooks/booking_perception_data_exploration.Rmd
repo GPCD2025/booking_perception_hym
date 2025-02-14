@@ -1,0 +1,44 @@
+---
+title: "Gerencia Proyectos para Ciencia de Datos"
+subtitle: "Proyecto - Booking Perception"
+date: "01 de marzo de 2025"
+output:
+  html_document:
+    highlight: zenburn
+    number_sections: yes
+    theme: spacelab
+    toc: yes
+    toc_depth: 5
+    toc_float: yes
+---
+```{r message=FALSE, warning=FALSE, include=FALSE}
+# librerias
+library(readr)  # Cargar la librería readr para usar read_csv
+
+options(scipen = 999)  # Ajustar el valor para desactivar notación científica
+```
+
+```{r echo=FALSE }
+# Definan el directorio de trabajo. Oculten este bloque de código.
+setwd("D:/EAN/GPCD/booking_perception_hym_dev/notebooks")
+```
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+# Carga de los datos
+registros <- read_csv("reviews_booking.csv")
+
+# Ver las primeras filas del archivo
+head(registros)
+```
+
+# Entendimiento del Negocio
+
+<p align="justify">La administración de justicia representa uno de los pilares fundamentales del estado social de derecho colombiano consignado en el marco jurídico de la Constitución del 1991, visualizado en un acceso oportuno a la justicia, logrando con esto proteger los derechos fundamentales del ciudadano.</p> 
+
+<p align="justify">La Fiscalía General de la Nación hace parte de la rama judicial y presta un servicio esencial a la sociedad, su función es única a nivel nacional, lo que implica que su actuar impacta directamente en la vida de los ciudadanos.</p> 
+
+<p align="justify">Es por esta razón que para entender de una forma clara el actuar de esta Entidad nos apoyamos en el Informe de Estadísticas del Sistema Penal Oral Acusatorio en Colombia 2022 generado por la Corporación Excelencia en la Justicia en el año 2023, para el cual se analizan los datos registrados por esta entidad para el año 2022, análisis que describimos a continuación:</p>
+
+<p align="justify">El primer aspecto por considerar es que la información asociada a este corte de datos corresponde a un total de 1.787.738 casos registrados en el marco de la Ley 906 de 2004 para el año 2022.</p>
+
+<p align="justify">En la gráfica descrita a continuación podemos identificar la distribución de estos casos por tipo de entrada, siendo la Denuncia la que representa más del 60% de los casos, siendo este tipo de entrada la que corresponde a la puesta en conocimiento de la Entidad por parte de un ciudadano quien puede actuar como víctima de la conducta delictiva o el denunciante del hecho.</p> 

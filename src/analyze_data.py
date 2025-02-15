@@ -1,12 +1,16 @@
+<<<<<<< HEAD
 import pandas as pd
 import os
 
+=======
+>>>>>>> b587a56225bd4cd577c06ccab2ca0aa010709c66
 class DataAnalyzer:
     def __init__(self, data):
         self.data = data
 
     def analyze(self):
         """Realiza análisis descriptivo y de sentimiento."""
+<<<<<<< HEAD
         # Verifica que las columnas necesarias existan
         if "Calificación" not in self.data.columns or "País" not in self.data.columns:
             raise ValueError("El DataFrame debe contener las columnas 'Calificación' y 'País'.")
@@ -30,4 +34,9 @@ class DataAnalyzer:
         except Exception as e:
             print(f"Error al guardar el archivo: {e}")
 
+=======
+        # Ejemplo: Calcular el promedio de calificaciones
+        avg_rating = self.data["Calificación"].mean()
+        print(f"Calificación promedio: {avg_rating}")
+>>>>>>> b587a56225bd4cd577c06ccab2ca0aa010709c66
         return avg_rating

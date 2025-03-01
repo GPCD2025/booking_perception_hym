@@ -7,7 +7,7 @@
 ## Descripción
 Lista los roles dentro del equipo y sus responsabilidades.
 
-**Data Scientist (con funciones de Project Management)**:
+**Data Scientist (con funciones de Project Management)**: Hannan Yousef
 - Preparación de Datos:
 Implementar las estrategias de limpieza y preprocesamiento de datos definidas por el Analista de Datos.
 Realizar la ingeniería de características (feature engineering) para crear nuevas variables que mejoren el rendimiento de los modelos.
@@ -40,7 +40,7 @@ Asegurar que el proyecto se alinee con los objetivos del negocio.
 Audiencia: Stakeholders del proyecto, equipo directivo.
 Frecuencia: Semanal o quincenal.
 
-**Data Analyst**: 
+**Data Analyst**: Yohn Hernández
 - Comprensión del Negocio:
 Colaborar con los stakeholders para definir los objetivos del negocio y cómo el análisis de sentimiento puede contribuir.
 Identificar los grupos de viaje más relevantes para el análisis.
@@ -71,7 +71,7 @@ Frecuencia: Periódica (mensual), y antes de cualquier modelado.
 Audiencia: Data Scientist, Data Engineer, Stakeholders del negocio.
 Frecuencia: Al inicio del proyecto, y cuando haya cambios en los objetivos del negocio.
 
-**Data Engineer**:
+**Data Engineer**: Michel Larrota
 - Diseño de la Arquitectura de Datos:
 Seleccionar las herramientas y tecnologías de datos más adecuadas para el proyecto (por ejemplo, bases de datos, plataformas de procesamiento de datos, herramientas de visualización de datos).
 Diseñar la arquitectura de datos para garantizar la escalabilidad, la seguridad y la confiabilidad de los datos.
